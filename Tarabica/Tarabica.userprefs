@@ -1,0 +1,36 @@
+﻿<Properties StartupItem="src/Tarabica/Tarabica.xproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="web|Profile" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Tarabica/Models/SurveyResult.cs">
+    <Files>
+      <File FileName="src/Tarabica/Controllers/HomeController.cs" Line="39" Column="48" />
+      <File FileName="src/Tarabica/Views/Home/Survey.cshtml" Line="38" Column="1" />
+      <File FileName="src/Tarabica/Views/Home/SurveyResults.cshtml" Line="2" Column="5" />
+      <File FileName="src/Tarabica/Views/Shared/_Layout.cshtml" Line="35" Column="75" />
+      <File FileName="src/Tarabica/Models/SurveyResult.cs" Line="19" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Tarabica" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="Tarabica" expanded="True">
+                <Node name="Controllers" expanded="True" />
+                <Node name="Models" expanded="True">
+                  <Node name="SurveyResult.cs" selected="True" />
+                </Node>
+                <Node name="Views" expanded="True">
+                  <Node name="Home" expanded="True" />
+                  <Node name="Shared" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

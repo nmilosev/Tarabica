@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Survey";
+}
+<h1>Tarabica - .NET Development Toolchain on Linux</h1>
+<h2>A quick survey about the presentation</h2>
+
+<br/>
+<p>
+
+@if (ViewBag.ShowMessage)
+{
+    <div class="alert alert-success" role="alert"> 
+        <strong>Thank you!</strong> 
+        Your comment has been submitted! 
+    </div>
+}
+<form class="form-vertical" method="post" asp-controller="Home" asp-action="SubmitSurvey">
+    <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1">Your name</span>
+        <input type="text" class="form-control" aria-describedby="basic-addon1" name="name">
+    </div>
+    <br/>
+
+    <div class="form-group">
+        <label class="control-label" for="textarea">Your comment:</label>
+        <div>                     
+            <textarea style="min-width: 95%; min-height: 100px" class="form-control" name="comment"></textarea>
+        </div>
+    </div>
+
+    <br/>
+    <input type="submit" class="btn btn-info" value="Send">
+
+</form>
+
+</p>

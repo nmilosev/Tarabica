@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Survey Results";
+    var results = ViewBag.Results as System.Collections.Generic.IEnumerable<SurveyResult>;
+}
+
+<h1>Tarabica - .NET Development Toolchain on Linux</h1>
+<h2>Previous survey comments</h2>
+
+<br/>
+<p>
+
+@foreach(var s in results)
+{
+    <div class="alert alert-info" role="alert"> 
+        <strong>
+        	<h4>
+        		@s.Name - @s.Date.ToString("dd.MM.yyyy. HH:mm:ss")
+        	</h4>
+        </strong>
+        @s.Comment
+    </div>
+}
+
+</p>
