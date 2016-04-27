@@ -30,9 +30,9 @@ namespace Tarabica.Controllers
         }
 
         [HttpPost]
-        public IActionResult SubmitSurvey(string name, string comment)
+        public IActionResult SubmitSurvey(string name, string comment, int mark)
         {
-            SurveyResult.Save(name, comment);
+            SurveyResult.Save(name, comment, mark);
 
             ViewBag.ShowMessage = true;
             
