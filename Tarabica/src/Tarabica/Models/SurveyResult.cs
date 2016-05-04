@@ -17,7 +17,7 @@ namespace Tarabica
             var s = new SurveyResult() { 
                 Name = name, 
                 Comment = comment, 
-                Date = DateTime.UtcNow.AddHours(2), 
+                Date = DateTime.UtcNow.AddHours(2),
                 Mark = mark 
             };
 
