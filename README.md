@@ -5,4 +5,6 @@ Stuff from my talk from the Tarabica # Conference Belgrade 2016
 - ASP.NET Core application
 - Presentation (.odp)
 
-License: MIT
+License for the code: MIT
+
+# Thanks to all who have attended!
